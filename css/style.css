@@ -1,0 +1,49 @@
+/* selected color pallet:
+73683b 583e23 a2c5ac cbbe66 f3b61f 9db5b2 */
+
+/* Nav Stuff */
+nav{
+    background-color: #a2c5ac;
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+nav a{
+    color: #583E23;
+    font-size: 2em;
+}
+#pgtitle a{
+    color: #534921;
+    font-size: 3em;
+}
+/* carousel */
+.carpic {
+    width: 90Vw !important;
+    height: 60vh !important;
+}
+/* footer stuff */
+.fa {
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #cbbe66;
+    }
+footer p{
+    text-align: center;
+    margin-top: 0.1em;
+    color: #cbbe66;
+}
+footer h4{
+    size: 3em;
+    color: #cbbe66;
+}
+footer li{
+    color: #cbbe66;
+}
+footer{
+    bottom: 0;
+    margin: 0;
+    background-color: #583E23;
+}
+/*  */
