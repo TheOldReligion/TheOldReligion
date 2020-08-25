@@ -1,10 +1,15 @@
 /* selected color pallet:
 73683b 583e23 a2c5ac cbbe66 f3b61f 9db5b2 */
-
+ /*Body-ody-ody */ 
+ body{
+    /* background-color: #ffcd9f; */
+    background-color: wheat;
+ }
 /* Nav Stuff */
 nav{
     background-color: #a2c5ac;
-    padding: 12px;
+    margin-top: 10px;
+    padding: 20px;
     text-align: center;
     margin-bottom: 0 !important;
 }
@@ -15,10 +20,15 @@ nav a{
 #pgtitle a{
     color: #534921;
     font-size: 3em;
+    /* font-family: Aladin; */
+    /* font-family: 'Atomic Age'; */
+    /* font-family: 'Berkshire Swash' */
+    /* font-family: 'Caesar Dressing' */
+    font-family: 'Lily Script One'
 }
 /* carousel */
 .carpic {
-    width: 90Vw !important;
+    width: 90Vw ;
     height: 60vh !important;
 }
 /* footer stuff */
