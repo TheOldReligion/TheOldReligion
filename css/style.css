@@ -1,5 +1,8 @@
 /* selected color pallet:
 73683b 583e23 a2c5ac cbbe66 f3b61f 9db5b2 */
+html {
+  scroll-behavior: smooth;
+}
  /*Body-ody-ody */ 
  body{
     /* background-color: #ffcd9f; */
@@ -7,11 +10,13 @@
  }
 /* Nav Stuff */
 nav{
-    background-color: #a2c5ac;
-    margin-top: 10px;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 0 !important;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #a2c5ac;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 0 !important;
 }
 nav a{
     color: #583E23;
@@ -135,6 +140,9 @@ footer{
 /* Profile cards */
 .profile img {
     max-width: 10vw;
+    min-width: 10vw;
+    min-height: 30vh;
+    max-height: 30vh;
 }
 .textfild {
     max-width: 40vw;
