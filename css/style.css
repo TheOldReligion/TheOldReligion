@@ -132,3 +132,10 @@ footer{
     color: white;
     transform: rotateY(180deg);
   }
+/* Profile cards */
+.profile img {
+    max-width: 10vw;
+}
+.textfild {
+    max-width: 40vw;
+}
