@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
+        <title> 
 
         </title>
         <meta charset="UTF-8" />
@@ -15,68 +15,191 @@
         <script src="scripts/quiz.js"></script>
     </head>
     <body>
-      <form id = "quiz" name = "quiz">
-        <div>
+      <div id="scoreboard">
+        
+        <div class="container-fluid">
+
+        <span id = "score">XXX</span>
+
+        </div> 
+        <div class="container-fluid">
+          <button class="col-12" onclick="location.reload()"><span>Try again</span></button>
+          <button class="col-12" onclick="location.href='index.html'"><span>Take me home</span></button>
+        </div>
+      </div>
+      <form id = "quiz" name = "quiz" class="container-fluid "> 
+        <div class="container-fluid question">
           <p class = "questions">Who is that guy on the picure ?</p>
           <img src="pics/jupiter.jpg">
-            <input type = "radio" id = "mc" name = "question1" value = "false"> Mars god of War <br>
-            <input type = "radio" id = "mc" name = "question1" value = "true"> Jupiter - roman megagod<br>
-            <input type = "radio" id = "mc" name = "question1" value = "false"> The beutiful Cupid - god of love<br>
-            <input type = "radio" id = "mc" name = "question1" value = "false"> ZEUS GOD OF LIGHTNING<br>
+          <div class=" form-check form-check-inline">
+            <div class="answer">
+            <input type = "radio" name = "question1" value = "false"><label> Mars god of War</label></br>
+          </div>
+          <div class="answer">
+            <input type = "radio" name = "question1" value = "true"><label> Jupiter - roman megagod</label></br>
+          </div>
+          <div class="answer">
+            <input type = "radio" name = "question1" value = "false"><label> The beutiful Cupid - god of love</label></br>
+          </div>
+          <div class="answer">  
+            <input type = "radio" name = "question1" value = "false"><label> ZEUS GOD OF LIGHTNING</label></br>
+          </div> 
+          </div>
         </div>
-        <div>
+        <div class="container-fluid question">
           <p class = "questions">How about this handsom fellow?</p>
             <img src ="pics/seth.jpg">
-            <input type = "radio" id = "mc" name = "question2" value = "false"> Bes god of good times<br>
-            <input type = "radio" id = "mc" name = "question2" value = "true"> Seth god of chaos<br>
-            <input type = "radio" id = "mc" name = "question2" value = "false"> Bastet goddess of pleasure<br>
-            <input type = "radio" id = "mc" name = "question2" value = "false"> Anubis god of the underworld<br>
+            <div class=" form-check form-check-inline">
+              <div class="answer">
+                <input type = "radio" name = "question2" value = "false"><label> Bes god of good times</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question2" value = "true"><label> Seth god of chaos</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question2" value = "false"><label> Bastet goddess of pleasure</label></br>
+            </div>
+            <div class="answer">  
+              <input type = "radio" name = "question2" value = "false"><label> Anubis god of the underworld</label></br>
+            </div>  
+            </div>
+        
+            <!-- <input type = "radio" name = "question2" value = "false"> Bes god of good times<br> -->
+            <!-- <input type = "radio" name = "question2" value = "true"> Seth god of chaos<br> -->
+            <!-- <input type = "radio" name = "question2" value = "false"> Bastet goddess of pleasure<br> -->
+            <!-- <input type = "radio" name = "question2" value = "false"> Anubis god of the underworld<br> -->
         </div>
-        <div>
+        <div class="container-fluid question">
           <p class = "questions">What is Osiris the goddess off?</p>
-            <input type = "radio" id = "mc" name = "question3" value = "false">god of hunt and war<br>
+            <!-- <input type = "radio" id = "mc" name = "question3" value = "false"><br>
             <input type = "radio" id = "mc" name = "question3" value = "true">god of crops/jude of the dead<br>
             <input type = "radio" id = "mc" name = "question3" value = "false">god of writing and wisdom<br>
-            <input type = "radio" id = "mc" name = "question3" value = "false">god of basket weaving<br>
-        </div>
-        <div>
+            <input type = "radio" id = "mc" name = "question3" value = "false">god of basket weaving<br> -->
+            <div class=" form-check form-check-inline">
+              <div class="answer">
+                <input type = "radio" name = "question3" value = "false"><label>god of hunt and war</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question3" value = "true"><label>god of crops/jude of the dead</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question3" value = "false"><label>god of writing and wisdom</label></br>
+            </div>
+            <div class="answer">   
+              <input type = "radio" name = "question3" value = "false"><label>god of basket weaving</label></br>
+            </div>  
+          </div>
+          </div>
+        <div class="container-fluid question">
           <p class = "questions">Athena was the daugther of ...</p>
-            <input type = "radio" id = "mc" name = "question4" value = "false"> Zeus<br>
+            <!-- <input type = "radio" id = "mc" name = "question4" value = "false"> Zeus<br>
             <input type = "radio" id = "mc" name = "question4" value = "false"> Hades<br>
             <input type = "radio" id = "mc" name = "question4" value = "false"> Hephaestus<br>
-            <input type = "radio" id = "mc" name = "question4" value = "true"> Poseidon<br>
+            <input type = "radio" id = "mc" name = "question4" value = "true">  <br> -->
+            <div class=" form-check form-check-inline">
+              <div class="answer">
+                <input type = "radio" name = "question4" value = "true"><label>Zeus</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question4" value = "false"><label>Hades</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question4" value = "false"><label>Hephaestus</label></br>
+            </div>
+            <div class="answer">  
+              <input type = "radio" name = "question4" value = "false"><label>Poseidon</label></br>
+            </div>
+            </div>  
         </div>
-        <div>
+        <div class="container-fluid question">
           <p class = "questions">The roman equivelent of Artemis was...</p>
-            <input type = "radio" id = "mc" name = "question5" value = "true"> Diana<br>
+            <!-- <input type = "radio" id = "mc" name = "question5" value = "true"> Diana<br>
             <input type = "radio" id = "mc" name = "question5" value = "false"> Minerva<br>
             <input type = "radio" id = "mc" name = "question5" value = "false"> Juno<br>
-            <input type = "radio" id = "mc" name = "question5" value = "false"> Venus<br>
+            <input type = "radio" id = "mc" name = "question5" value = "false"> Venus<br> -->
+            <div class=" form-check form-check-inline">
+              <div class="answer">
+                <input type = "radio" name = "question5" value = "true"><label>Dian</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question5" value = "false"><label>Minerva</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question5" value = "false"><label>Juno</label></br>
+            </div>
+            <div class="answer"  > 
+              <input type = "radio" name = "question5" value = "false"><label>Venus</label></br>
+            </div>
+            </div>  
         </div>
-        <div>
+        <div class="container-fluid question">
           <p class = "questions">Atropos was</p>
-            <input type = "radio" id = "mc" name = "question6" value = "false">goddes of war<br>
+            <!-- <input type = "radio" id = "mc" name = "question6" value = "false">goddes of war<br>
             <input type = "radio" id = "mc" name = "question6" value = "false">goddes of music<br>
             <input type = "radio" id = "mc" name = "question6" value = "true">one of the three fates<br>
-            <input type = "radio" id = "mc" name = "question6" value = "false">goddes of hunt<br>
+            <input type = "radio" id = "mc" name = "question6" value = "false">goddes of hunt<br> -->
+            <div class=" form-check form-check-inline">
+              <div class="answer">
+                <input type = "radio" name = "question6" value = "false"><label>goddess of war</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question6" value = "false"><label>goddess of music</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question6" value = "true"><label>one of the three fates</label></br>
+            </div>
+            <div class="answer">  
+              <input type = "radio" name = "question6" value = "false"><label>goddess of hunt</label></br>
+            </div>
+            </div>  
         </div>
-        <div>
+        <div class="container-fluid question">
           <p class = "questions">Sobek has</p>
-            <input type = "radio" id = "mc" name = "question7" value = "false" ><lable>the head of a bird</lable><br>
+            <!-- <input type = "radio" id = "mc" name = "question7" value = "false" ><lable>the head of a bird</lable><br>
             <input type = "radio" id = "mc" name = "question7" value = "false"> the head of a lion<br>
             <input type = "radio" id = "mc" name = "question7" value = "false"> the head of a dog<br>
-            <input type = "radio" id = "mc" name = "question7" value = "true"> the head of a crocodile<br>
+            <input type = "radio" id = "mc" name = "question7" value = "true"> the head of a crocodile<br> -->
+            <div class=" form-check form-check-inline">
+              <div class="answer">
+                <input type = "radio" name = "question7" value = "false"><label>the head of a bird</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question7" value = "false"><label>the head of a lion</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question7" value = "false"><label>the head of a dog</label></br>
+            </div>
+            <div class="answer">  
+              <input type = "radio" name = "question7" value = "true"><label>the head of a crocodile</label></br>
+            </div>
+            </div>  
         </div>
-        <div>
+        <div class="container-fluid question">
           <p class = "questions">Wich of these goddesses did not start the Trojan War?</p>
-            <input type = "radio" id = "mc" name = "question8" value = "false"> Aphrodite<br>
+            <!-- <input type = "radio" id = "mc" name = "question8" value = "false"> Aphrodite<br>
             <input type = "radio" id = "mc" name = "question8" value = "false"> Athena<br>
-            <input type = "radio" id = "mc" name = "question8" value = "true"> Artemis<br>
-            <input type = "radio" id = "mc" name = "question8" value = "false"> Hera<br>
+            <input type = "radio" id = "mc" name = "question8" value = "true">  <br>
+            <input type = "radio" id = "mc" name = "question8" value = "false"> Hera<br> -->
+            <div class=" form-check form-check-inline">
+              <div class="answer">
+                <input type = "radio" name = "question8" value = "false"><label>Aphrodite</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question8" value = "false"><label>Athena</label></br>
+            </div>
+            <div class="answer">
+              <input type = "radio" name = "question8" value = "true"><label>Artemis</label></br>
+            </div>
+            <div class="answer">  
+              <input type = "radio" name = "question8" value = "false"><label>Hera</label></br>
+            </div>  
+            </div>
         </div>
-        <div id="scoreboard">
+        <!-- <div id="scoreboard">
+            <button onclick="location.reload()">Try again</button>
+            <button><a href="index.html">Go home</a></button>
             <span id = "score">XXX</span>
-        </div>
+        </div> -->
         <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
     </body>
   </html>

@@ -1,4 +1,9 @@
+function scrollToTop() { 
+    window.scrollTo(0, 0); 
+} 
+
 function check(){
+    scrollToTop()
     var correct = 0;
 	var question1 = document.quiz.question1.value;
 	var question2 = document.quiz.question2.value;
@@ -34,6 +39,6 @@ function check(){
         correct = correct + 1;
     }
     document.getElementById("quiz").style.visibility = "hidden";
-    document.getElementById("score").style.visibility = "visible";
+    document.getElementById("scoreboard").style.visibility = "visible";
     document.getElementById("score").innerHTML = "You got " + correct + " correct.";
 }
