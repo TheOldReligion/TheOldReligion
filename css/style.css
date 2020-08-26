@@ -139,3 +139,6 @@ footer{
 .textfild {
     max-width: 40vw;
 }
+#wrap{
+  word-wrap: break-word;
+}
