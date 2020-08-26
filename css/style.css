@@ -10,9 +10,7 @@ html {
  }
 /* Nav Stuff */
 nav{
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  margin-top: 10px;
   background-color: #a2c5ac;
   padding: 20px;
   text-align: center;
@@ -138,15 +136,48 @@ footer{
     transform: rotateY(180deg);
   }
 /* Profile cards */
+.profile {
+    background-image: url("bckgrndpics/papyrus.jpg");
+    margin: 15px;
+    border-radius: 10px;
+    border: 5px;
+    border-style: solid;
+    border-color: #a2c5ac;
+    
+    /* box-shadow: 10px 5px 5px #583E23; */
+  }
+.profile h2 {
+  font-family: 'Macondo';
+  font-size: 3em;
+}
 .profile img {
-    max-width: 10vw;
-    min-width: 10vw;
-    min-height: 30vh;
-    max-height: 30vh;
+    float: right;
+    max-width: 15vw;
+    min-width: 15vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 10px;
+    margin: 5px;
 }
 .textfild {
     max-width: 40vw;
 }
 #wrap{
   word-wrap: break-word;
+}
+#getyaabout {
+  background-color: #583E23;
+  padding: 1px;
+  text-align: center;
+  padding: 0.5em;
+}
+#getyaabout a {
+  font-size: 0.5em;
+  padding: 0.2em;
+  text-align: center;
+  color: #cbbe66;
+  border: 2px;
+  border-style: solid;
+  border-color: #311b02;
+  
 }
