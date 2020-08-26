@@ -21,10 +21,21 @@ nav a{
     font-size: 2em;
     font-family: 'Macondo';
 }
+nav a:hover{
+  color: #3a2917;
+  font-size: 2.1em;
+  font-family: 'Macondo';
+  
+}
 #pgtitle a{
     color: #534921;
     font-size: 3em;
     font-family: 'Caesar Dressing'
+}
+#pgtitle a:hover { 
+  color: #534921;
+  font-size: 3.03em;
+  font-family: 'Caesar Dressing'
 }
 /* carousel */
 .carpic {
@@ -170,6 +181,9 @@ footer{
   padding: 1px;
   text-align: center;
   padding: 0.5em;
+  border: 5px;
+  border-style: solid;
+  border-color: #311b02;
 }
 #getyaabout a {
   font-size: 0.5em;
@@ -178,6 +192,17 @@ footer{
   color: #cbbe66;
   border: 2px;
   border-style: solid;
+  border-color: #4426046c;
+  
+}
+#getyaabout a:hover {
+  font-size: 0.6em;
+  padding: 0.4em;
+  text-align: center;
+  border: 2px;
+  border-style: solid;
   border-color: #311b02;
+  background-color: #311b02;
+  text-decoration: none;
   
 }
