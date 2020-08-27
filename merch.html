@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Macondo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link rel = "stylesheet" href = "css/merch.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -21,11 +22,11 @@
             <div class="dropdown">
                 <button class="dropbtn">Shop</button>
                 <div class="dropdown-content">
-                  <a href="#">New Collection</a>
-                  <a href="#">Shirts</a>
-                  <a href="#">Bottles</a>
-                  <a href="#">Hats</a>
-                  <a href="#">Hoodies</a>
+                  <a href="#New_collection">New Collection</a>
+                  <a href="#Shirt">Shirts</a>
+                  <a href="#Bottle">Bottles</a>
+                  <a href="#Hat">Hats</a>
+                  <a href="#Hoodie">Hoodies</a>
                 </div>
             </div>
             <a href = "index.html">Homepage</a>
@@ -47,19 +48,19 @@
           <div class="carousel-inner">
       
             <div class="item active">
-                <img src="pics/merch/newcollection banner.jpg" alt="New stuff" class = "carpic">
+                <a href = "#New_collection"><img src="pics/merch/newcollection banner.jpg" alt="New stuff" class = "carpic"></a>
             </div>
             <div class="item">
-                <img src="pics/merch/hat banner.jpg" alt="Hats" class = "carpic">
+                <a href="#Hat"><img src="pics/merch/hat banner.jpg" alt="Hats" class = "carpic"></a>
             </div>
             <div class="item">
-              <img src="pics/merch/bottle banner.jpg" alt="Bottles" class = "carpic">
+                <a href="#Bottle"><img src="pics/merch/bottle banner.jpg" alt="Bottles" class = "carpic"></a>
             </div>
             <div class="item">
-                <img src="pics/merch/hoodie banner.jpg" alt="Hoodies" class = "carpic">
+                <a href="#Hoodie"> <img src="pics/merch/hoodie banner.jpg" alt="Hoodies" class = "carpic"></a>
             </div>
             <div class="item">
-                <img src="pics/merch/shirt banner.jpg" alt="Shirts" class = "carpic">
+                <a href="#Shirt"><img src="pics/merch/shirt banner.jpg" alt="Shirts" class = "carpic"></a>
               </div>
           </div>
       
@@ -75,64 +76,67 @@
         </div>
       </div>
     <div class = "row col-12">
+        <h1 class = "row col-12" id = "New_collection"> The latest and greatest:</h1>
         <div class="card .col-md-3 .col-xs-6">
             <img src="pics/merch/thothbottle.png" alt="Bottle with Thoth" style="width:100%">
             <h1>Be gone Thoth! Bottle</h1>
             <p class="price">$14.99</p>
-            <p>A bottle with your egyptian friend Thoth.</p>
+            <p>A bottle with your egyptian friend <a href = "egypt.html#Thoth">Thoth</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
         <div class="card .col-md-3 .col-xs-6">
             <img src="pics/merch/thothshirtfrnt.png" alt="Shirt with Thoth" style="width:100%">
             <h1>Be gone Thoth! Shirt</h1>
             <p class="price">$19.99</p>
-            <p>A shirt with your egyptian friend Thoth.</p>
+            <p>A shirt with your egyptian friend <a href = "egypt.html#Thoth">Thoth</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
         <div class="card .col-md-3 .col-xs-6">
             <img src="pics/merch/thothhat.png" alt="Hat with Thoth" style="width:100%">
-            <h1>Be gone Thoth! Hat</h1>
+            <h1>Be gone Thoth! <br> Hat</h1>
             <p class="price">$14.99</p>
-            <p>A hat with your egyptian friend Thoth.</p>
+            <p>A hat with your egyptian friend <a href = "egypt.html#Thoth">Thoth</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
         <div class="card .col-md-3 .col-xs-6">
             <img src="pics/merch/thothoodie.png" alt="Hoodie with Thoth" style="width:100%">
             <h1>Be gone Thoth! Hoodie</h1>
             <p class="price">$24.99</p>
-            <p>A hoodie with your egyptian friend Thoth.</p>
+            <p>A hoodie with your egyptian friend <a href = "egypt.html#Thoth">Thoth</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
     </div>
     <div class = "row col-12">
+        <h1 class = "row col-12" id = "Hat"> Hats to help you against the summer heat:</h1>
         <div class="card .col-md-3 .col-xs-6">
             <img src="pics/merch/apollohat.png" alt="Hat with Apollo" style="width:100%">
             <h1>Non-Apollo-getic! Hat</h1>
             <p class="price">$14.99</p>
-            <p>A hat with your greek friend Apollo.</p>
+            <p>A hat with your greek friend <a href = "greece.html#Apollo">Apollo</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
         <div class="card .col-md-3 .col-xs-6">
             <img src="pics/merch/logohat.png" alt="Hat with Logo" style="width:100%">
             <h1>The Old Religion Hat</h1>
             <p class="price">$14.99</p>
-            <p>A hat with your favorite website .</p>
+            <p>A hat with your favorite website.</p>
             <p><button>Add to Cart</button></p>
         </div>
         <div class="card .col-md-3 .col-xs-6">
             <img src="pics/merch/junohat.png" alt="Hat with Juno" style="width:100%">
             <h1>Juno you want to! Hat</h1>
             <p class="price">$14.99</p>
-            <p>A hat with your roman friend Juno.</p>
+            <p>A hat with your roman friend <a href = "rome.html#Juno">Juno</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
     </div>
     <div class = "row col-12">
+        <H1 class = "row col-12" id = "Shirt"> The timeless way to show your style:</H1>
         <div class="card .col-md-3 .col-xs-6">
             <img src="pics/merch/apolloshirth.png" alt="Shirt with Apollo" style="width:100%">
             <h1>Non-Apollo-getic! Shirt</h1>
             <p class="price">$19.99</p>
-            <p>A shirt with your greek friend Apollo.</p>
+            <p>A shirt with your greek friend <a href = "greece.html#Apollo">Apollo</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
         <div class="card .col-md-3 .col-xs-6">
@@ -146,16 +150,17 @@
             <img src="pics/merch/junoshirt.png" alt="Shirt with Juno" style="width:100%">
             <h1>Juno you want to! Shirt</h1>
             <p class="price">$19.99</p>
-            <p>A shirt with your roman friend Juno.</p>
+            <p>A shirt with your roman friend <a src = "rome.html#Juno">Juno</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
     </div>
     <div class = "row col-12">
+        <h1 class = "row col-12" id = "Bottle"> Water just seems cooler from these bottles:</h1>
         <div class="card .col-md-3 .col-xs-6">
             <img src="pics/merch/apollo bottle.png" alt="Bottle with Apollo" style="width:100%">
             <h1>Non-Apollo-getic! Bottle</h1>
             <p class="price">$14.99</p>
-            <p>A bottle with your greek friend Apollo.</p>
+            <p>A bottle with your greek friend <a href = "greece.html#Apollo">Apollo</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
         <div class="card .col-md-3 .col-xs-6">
@@ -169,16 +174,17 @@
             <img src="pics/merch/junobottle.png" alt="Bottle with Juno" style="width:100%">
             <h1>Juno you want to! Bottle</h1>
             <p class="price">$14.99</p>
-            <p>A bottle with your roman friend Juno.</p>
+            <p>A bottle with your roman friend <a href = "rome.html#Juno">Juno</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
     </div>
     <div class = "row col-12">
+        <h1 class = "row col-12" id = "Hoddie"> For those who want to keep warm in style:</h1>
         <div class="card .col-md-3 .col-xs-6">
             <img src="pics/merch/apollohoodie.png" alt="Hoodie with Apollo" style="width:100%">
             <h1>Non-Apollo-getic! Hoodie</h1>
             <p class="price">$24.99</p>
-            <p>A hoodie with your greek friend Apollo.</p>
+            <p>A hoodie with your greek friend <a href = "greece.html#Apollo">Apollo</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
         <div class="card .col-md-3 .col-xs-6">
@@ -192,7 +198,7 @@
             <img src="pics/merch/junohoodie.png" alt="Hoodie with Juno" style="width:100%">
             <h1>Juno you want to! Hoodie</h1>
             <p class="price">$24.99</p>
-            <p>A hoodie with your roman friend Juno.</p>
+            <p>A hoodie with your roman friend <a href = "rome.html#Juno">Juno</a>.</p>
             <p><button>Add to Cart</button></p>
         </div>
     </div>
