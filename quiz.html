@@ -1,239 +1,208 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> 
 
-        </title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/quiz.css">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <script src="scripts/quiz.js"></script>
-    </head>
-    <body>
-      <container class = "fluid">
-        <nav class = "Container navbar flex-column flex-sm-row">
-            <div id = "pgtitle">
-                <a href = "index.html">The Old Religion</a>
-            </div>
-            <a href = "greece.html">Greece</a>
-            <a href = "rome.html">Rome</a>
-            <a href = "egypt.html">Egypt</a>
-            <a href = "quiz.html">Quiz</a>
-            <a href = "merch.html">Merch</a>
-        </nav>
-    </container>
-    <div id = "background">
-      <div id="scoreboard">
-        
-        <div class="container-fluid">
+<head>
+  <title>
 
-        <span id = "score">XXX</span>
-        <span id = "quoat">XXX</span>
+  </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Macondo' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/quiz.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="scripts/quiz.js"></script>
+</head>
 
-        </div> 
-      
-        <div class="container-fluid">
-          <button class="col-12" onclick="location.reload()"><span>Try again</span></button>
-          <button class="col-12" onclick="location.href='index.html'"><span>Take me home</span></button>
+<body>
+  <container class="fluid">
+    <nav class="Container navbar flex-column flex-sm-row">
+      <div id="pgtitle">
+        <a href="index.html">The Old Religion</a>
+      </div>
+      <a href="greece.html">Greece</a>
+      <a href="rome.html">Rome</a>
+      <a href="egypt.html">Egypt</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="merch.html">Merch</a>
+    </nav>
+  </container>
+  <div id="background">
+    <div id="scoreboard">
+
+      <div class="container-fluid">
+
+        <span id="score">XXX</span>
+        </br>
+        <span id="quoat">XXX</span>
+
+      </div>
+
+      <div class="container-fluid">
+        <button class="col-12" onclick="location.reload()"><span>Try again</span></button>
+        <button class="col-12" onclick="location.href='index.html'"><span>Take me home</span></button>
+      </div>
+    </div>
+  </div>
+  <form id="quiz" name="quiz" class="container-fluid ">
+    <div class="container-fluid question">
+      <p class="questions">Who is that guy on the picure ?</p>
+      <img src="pics/jupiter.jpg">
+      <div class=" form-check">
+        <div class="answer container-fluid">
+          <input type="radio" name="question1" value="false"><label> Mars god of War</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question1" value="true"><label> Jupiter - roman megagod</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question1" value="false"><label> The beutiful Cupid - god of love</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question1" value="false"><label> ZEUS GOD OF LIGHTNING</label></br>
         </div>
       </div>
+    </div>
+    <div class="container-fluid question">
+      <p class="questions">How about this handsom fellow?</p>
+      <img src="pics/seth.jpg">
+      <div class=" form-check">
+        <div class="answer container-fluid">
+          <input type="radio" name="question2" value="false"><label> Bes god of good times</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question2" value="true"><label> Seth god of chaos</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question2" value="false"><label> Bastet goddess of pleasure</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question2" value="false"><label> Anubis god of the underworld</label></br>
+        </div>
       </div>
-      <form id = "quiz" name = "quiz" class="container-fluid "> 
-        <div class="container-fluid question">
-          <p class = "questions">Who is that guy on the picure ?</p>
-          <img src="pics/jupiter.jpg">
-          <div class=" form-check form-check-inline">
-            <div class="answer">
-            <input type = "radio" name = "question1" value = "false"><label> Mars god of War</label></br>
-          </div>
-          <div class="answer">
-            <input type = "radio" name = "question1" value = "true"><label> Jupiter - roman megagod</label></br>
-          </div>
-          <div class="answer">
-            <input type = "radio" name = "question1" value = "false"><label> The beutiful Cupid - god of love</label></br>
-          </div>
-          <div class="answer">  
-            <input type = "radio" name = "question1" value = "false"><label> ZEUS GOD OF LIGHTNING</label></br>
-          </div> 
-          </div>
+
+
+    </div>
+    <div class="container-fluid question">
+      <p class="questions">What is Osiris the god off?</p>
+
+      <div class=" form-check">
+        <div class="answer container-fluid">
+          <input type="radio" name="question3" value="false"><label>god of hunt and war</label></br>
         </div>
-        <div class="container-fluid question">
-          <p class = "questions">How about this handsom fellow?</p>
-            <img src ="pics/seth.jpg">
-            <div class=" form-check form-check-inline">
-              <div class="answer">
-                <input type = "radio" name = "question2" value = "false"><label> Bes god of good times</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question2" value = "true"><label> Seth god of chaos</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question2" value = "false"><label> Bastet goddess of pleasure</label></br>
-            </div>
-            <div class="answer">  
-              <input type = "radio" name = "question2" value = "false"><label> Anubis god of the underworld</label></br>
-            </div>  
-            </div>
-        
-           
+        <div class="answer container-fluid">
+          <input type="radio" name="question3" value="true"><label>god of crops/judge of the dead</label></br>
         </div>
-        <div class="container-fluid question">
-          <p class = "questions">What is Osiris the god off?</p>
-           
-            <div class=" form-check form-check-inline">
-              <div class="answer">
-                <input type = "radio" name = "question3" value = "false"><label>god of hunt and war</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question3" value = "true"><label>god of crops/judge of the dead</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question3" value = "false"><label>god of writing and wisdom</label></br>
-            </div>
-            <div class="answer">   
-              <input type = "radio" name = "question3" value = "false"><label>god of basket weaving</label></br>
-            </div>  
-          </div>
-          </div>
-        <div class="container-fluid question">
-          <p class = "questions">Athena was the daugther of ...</p>
-            
-            <div class=" form-check form-check-inline">
-              <div class="answer">
-                <input type = "radio" name = "question4" value = "true"><label>Zeus</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question4" value = "false"><label>Hades</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question4" value = "false"><label>Hephaestus</label></br>
-            </div>
-            <div class="answer">  
-              <input type = "radio" name = "question4" value = "false"><label>Poseidon</label></br>
-            </div>
-            </div>  
+        <div class="answer container-fluid">
+          <input type="radio" name="question3" value="false"><label>god of writing and wisdom</label></br>
         </div>
-        <div class="container-fluid question">
-          <p class = "questions">The roman equivelent of Artemis was...</p>
-            
-            <div class=" form-check form-check-inline">
-              <div class="answer">
-                <input type = "radio" name = "question5" value = "true"><label>Diana</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question5" value = "false"><label>Minerva</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question5" value = "false"><label>Juno</label></br>
-            </div>
-            <div class="answer"  > 
-              <input type = "radio" name = "question5" value = "false"><label>Venus</label></br>
-            </div>
-            </div>  
+        <div class="answer container-fluid">
+          <input type="radio" name="question3" value="false"><label>god of basket weaving</label></br>
         </div>
-        <div class="container-fluid question">
-          <p class = "questions">Atropos was</p>
-            
-            <div class=" form-check form-check-inline">
-              <div class="answer">
-                <input type = "radio" name = "question6" value = "false"><label>goddess of war</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question6" value = "false"><label>goddess of music</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question6" value = "true"><label>one of the three fates</label></br>
-            </div>
-            <div class="answer">  
-              <input type = "radio" name = "question6" value = "false"><label>goddess of hunt</label></br>
-            </div>
-            </div>  
+      </div>
+    </div>
+    <div class="container-fluid question">
+      <p class="questions">Athena was the daugther of ...</p>
+
+      <div class=" form-check">
+        <div class="answer container-fluid">
+          <input type="radio" name="question4" value="true"><label>Zeus</label></br>
         </div>
-        <div class="container-fluid question">
-          <p class = "questions">Sobek has</p>
-            <!-- <input type = "radio" id = "mc" name = "question7" value = "false" ><lable>the head of a bird</lable><br>
-            <input type = "radio" id = "mc" name = "question7" value = "false"> the head of a lion<br>
-            <input type = "radio" id = "mc" name = "question7" value = "false"> the head of a dog<br>
-            <input type = "radio" id = "mc" name = "question7" value = "true"> the head of a crocodile<br> -->
-            <div class=" form-check form-check-inline">
-              <div class="answer">
-                <input type = "radio" name = "question7" value = "false"><label>the head of a bird</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question7" value = "false"><label>the head of a lion</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question7" value = "false"><label>the head of a dog</label></br>
-            </div>
-            <div class="answer">  
-              <input type = "radio" name = "question7" value = "true"><label>the head of a crocodile</label></br>
-            </div>
-            </div>  
+        <div class="answer container-fluid">
+          <input type="radio" name="question4" value="false"><label>Hades</label></br>
         </div>
-        <div class="container-fluid question">
-          <p class = "questions">Wich of these goddesses did not start the Trojan War?</p>
-            <!-- <input type = "radio" id = "mc" name = "question8" value = "false"> Aphrodite<br>
-            <input type = "radio" id = "mc" name = "question8" value = "false"> Athena<br>
-            <input type = "radio" id = "mc" name = "question8" value = "true">  <br>
-            <input type = "radio" id = "mc" name = "question8" value = "false"> Hera<br> -->
-            <div class=" form-check form-check-inline">
-              <div class="answer">
-                <input type = "radio" name = "question8" value = "false"><label>Aphrodite</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question8" value = "false"><label>Athena</label></br>
-            </div>
-            <div class="answer">
-              <input type = "radio" name = "question8" value = "true"><label>Artemis</label></br>
-            </div>
-            <div class="answer">  
-              <input type = "radio" name = "question8" value = "false"><label>Hera</label></br>
-            </div>  
-            </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question4" value="false"><label>Hephaestus</label></br>
         </div>
-        <!-- <div id="scoreboard">
-            <button onclick="location.reload()">Try again</button>
-            <button><a href="index.html">Go home</a></button>
-            <span id = "score">XXX</span>
-        </div> -->
-        <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
-        <footer>
-          <container class="flex">
-              <div>
-                  <div class="row col-12" id="toprowfoot">
-                      <p class="col-6">tottalyrealadress@gmail.com</p>
-                      <p class="col-6">Phone: +1 (907) 800-000</p>
-                  </div>
-                  <ul>
-                      <div class="row col-12">
-                          <li class="col-2">Instagram: </li>
-                          <a href="#" class="fa fa-instagram col-4"></a>
-                          <p class="col-6">Street: Whywouldyouwan'ttoknow 29</p>
-                      </div>
-                      <div class="row col-12">
-                          <li class="col-2">Twitter: </li>
-                          <a href="#" class="fa fa-twitter col-4"></a>
-                          <p class="col-6">City: Nowhere</p>
-                      </div>
-                      <div class="row col-12">
-                          <li class="col-2">Facebook: </li>
-                          <a href="#" class="fa fa-facebook col-4"></a>
-                          <p class="col-6">Alaska, USA</p>
-                      </div>
-                      <div class="row col-12">
-                          <p class="col-12" id="copyright"> Copyright @2020</p>
-                      </div>
-      
-                  </ul>
-              </div>
-          </container>
-      
-      </footer> 
-    </body>
-  </html>
+        <div class="answer container-fluid">
+          <input type="radio" name="question4" value="false"><label>Poseidon</label></br>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid question">
+      <p class="questions">The roman equivalent of Artemis was...</p>
+
+      <div class=" form-check">
+        <div class="answer container-fluid">
+          <input type="radio" name="question5" value="true"><label>Diana</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question5" value="false"><label>Minerva</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question5" value="false"><label>Juno</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question5" value="false"><label>Venus</label></br>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid question">
+      <p class="questions">Atropos was</p>
+
+      <div class=" form-check">
+        <div class="answer container-fluid">
+          <input type="radio" name="question6" value="false"><label>goddess of war</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question6" value="false"><label>goddess of music</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question6" value="true"><label>one of the three fates</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question6" value="false"><label>goddess of hunt</label></br>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid question">
+      <p class="questions">Sobek has</p>
+      <div class=" form-check">
+        <div class="answer container-fluid">
+          <input type="radio" name="question7" value="false"><label>the head of a bird</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question7" value="false"><label>the head of a lion</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question7" value="false"><label>the head of a dog</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question7" value="true"><label>the head of a crocodile</label></br>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid question">
+      <p class="questions">Wich of these goddesses did not start the Trojan War?</p>
+      <div class=" form-check">
+        <div class="answer container-fluid">
+          <input type="radio" name="question8" value="false"><label>Aphrodite</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question8" value="false"><label>Athena</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question8" value="true"><label>Artemis</label></br>
+        </div>
+        <div class="answer container-fluid">
+          <input type="radio" name="question8" value="false"><label>Hera</label></br>
+        </div>
+      </div>
+    </div>
+    <input id="button" type="button" value="I'm finished!" onclick="check();">
+
+</body>
+
+</html>
