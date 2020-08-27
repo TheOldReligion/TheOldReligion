@@ -106,8 +106,13 @@ footer{
     margin: 0;
 }
 /* Flip cards /w gods */
+.flip-card img{
+  border-radius: 200px;
+}
 
 .flip-card {
+  margin-top:0.5em;
+  margin-bottom: 0.5em;
   background-color: transparent;
   width: 300px;
   height: 300px;
@@ -137,7 +142,7 @@ footer{
 }
 
 .flip-card-front {
-  background-color: #bbb;
+  background-color: #a2c5ac;
   color: black;
 }
 
