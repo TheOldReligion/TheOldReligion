@@ -1,0 +1,167 @@
+/* selected color pallet:
+73683b 583e23 a2c5ac cbbe66 f3b61f 9db5b2 */
+html {
+  scroll-behavior: smooth;
+}
+ /*Body-ody-ody */ 
+ body{
+    /* background-color: #ffcd9f; */
+    background-color: rgba(215, 215, 215, 0.322);
+ }
+/* Nav Stuff */
+nav{
+  margin-top: 10px;
+  background-color: #a2c5ac;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+nav a, .dropbtn{
+    color: #583E23;
+    font-size: 2em;
+    font-family: 'Macondo';
+}
+.dropbtn{
+    background-color: #a2c5ac;
+    border: 0;
+}
+nav a:hover{
+  color: #3a2917;
+  font-size: 2.1em;
+  font-family: 'Macondo';
+  
+}
+#pgtitle a{
+    color: #534921;
+    font-size: 3em;
+    font-family: 'Caesar Dressing'
+}
+#pgtitle a:hover { 
+  color: #534921;
+  font-size: 3.03em;
+  font-family: 'Caesar Dressing'
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a2c5ac;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: #534921;
+    padding: 12px 16px;
+    font-size: 2em;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #a2c5ac;
+    font-size: 2.1em;
+} 
+.dropdown:hover .dropdown-content {display: block;}
+  
+/* carousel */
+.carpic {
+    width: 100Vw ;
+    height: 60vh !important;
+}
+/* footer stuff */
+.fa {
+    font-size: 30px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    color: #928e76;
+    }
+#toprowfoot{
+    margin-left: 5px;
+}
+footer p{
+    text-align: left;
+    margin-top: 0.1em;
+    color: #928e76;
+}
+footer h4{
+    size: 3em;
+    color: #928e76;
+}
+footer li{
+    color: #928e76;
+}
+footer{
+    padding: 1em;
+    bottom: 0;
+    margin: 0;
+    background-color: #494642;
+}
+#copyright {
+    font-size: 0.5em;
+    text-align: center;
+}
+/*title picture */
+.image-container {
+    background-image: url("bckgrndpics/hieroglyfy.jpg");
+    background-size: cover;
+    position: relative;
+    height: 40vh;
+  }
+  
+  .text {
+    background-color: #311b02;
+    color: rgb(194, 248, 235);
+    font-size: 10vw; 
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: multiply;
+  }
+  /* merch cards */
+  .card {
+    background-color: #dff3e5e8;
+    box-shadow: 0 4px 8px 0 rgba(0, 53, 41, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: #583E23;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(238, 255, 248);
+    background-color: #583E23;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+.card img {
+    max-height: 40vh;
+    min-height: 40vh;
+    min-width: 20vw;
+}
