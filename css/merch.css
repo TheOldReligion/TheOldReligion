@@ -14,7 +14,6 @@ nav{
   background-color: #a2c5ac;
   padding: 20px;
   text-align: center;
-  margin-bottom: 0 !important;
 }
 nav a, .dropbtn{
     color: #583E23;
@@ -72,7 +71,10 @@ nav a:hover{
 /* carousel */
 .carpic {
     width: 100Vw ;
-    height: 60vh !important;
+    height: 80vh !important;
+    border: 5px;
+    border-style: solid;
+    border-color:rgb(190, 221, 198);
 }
 /* footer stuff */
 .fa {
@@ -164,4 +166,16 @@ footer{
     max-height: 40vh;
     min-height: 40vh;
     min-width: 20vw;
+}
+/* H1 text */
+h1 {
+  font-family: 'Aclonica';
+  font-size: 2em;
+  padding-left: 2em !important ; 
+  margin-top: 2em;
+}
+.card h1 {
+  font-size: 2em;
+  padding: 0 !important;
+  margin: 2px;
 }
