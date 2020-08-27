@@ -9,6 +9,24 @@ html {
     background-color: rgba(215, 215, 215, 0.322);
  }
 /* Nav Stuff */
+p{
+  font-family: 'Blinker';
+  font-size: 20px;
+}
+a {
+  color: #311b02;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+a:hower {
+  color: #311b02;
+  text-decoration: none;
+}
+a:active {
+  color: #311b02;
+  text-decoration: none;
+}
 nav{
   margin-top: 10px;
   background-color: #a2c5ac;
@@ -116,11 +134,13 @@ footer{
     position: relative;
     height: 40vh;
   }
-  
+  p{
+    font-family: 'Blinker';
+  }
   .text {
     background-color: #311b02;
     color: rgb(194, 248, 235);
-    font-size: 10vw; 
+    font-size: 20vw; 
     font-weight: bold;
     margin: 0 auto;
     padding: 10px;
