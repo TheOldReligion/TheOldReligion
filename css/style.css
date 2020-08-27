@@ -9,6 +9,20 @@ html {
     background-color: wheat;
  }
 /* Nav Stuff */
+a {
+  color: #311b02;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+a:hower {
+  color: #311b02;
+  text-decoration: none;
+}
+a:active {
+  color: #311b02;
+  text-decoration: none;
+}
 nav{
   margin-top: 10px;
   background-color: #a2c5ac;
