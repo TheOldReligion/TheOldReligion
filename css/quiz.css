@@ -1,11 +1,14 @@
 body {
-	font-family: 'Lato', sans-serif;
+
 	color: #333;
 	background-color: oldlace;
 }
 #quiz{
 	text-align: center;
 	
+}
+#background{
+	background-image: url("bckgrndpics/greek.jpg");
 }
 button{
 	background: rgb(167, 116, 41);
