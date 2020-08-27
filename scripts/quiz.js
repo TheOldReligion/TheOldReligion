@@ -43,14 +43,14 @@ function check(){
         if (correct == 8 ){
              sen = sen + "WOW FULL SCORE! Congrats !";
         }
-        if (correct == 6 || 7){
-             sen = sen + "Job well done sir !";
+        if (correct == 7 || correct == 6){
+             sen = sen + "Job well done, Sir !";
         }
-        if (correct == 5 || 4){
-             sen = sen + "Congrats on being slightly better then average";
+        if (correct == 5 || correct == 4){
+             sen = sen + "Congrats on being slightly better then average....";
         }
-        if (correct == 3 || 2){
-             sen = sen + "Well at least you tried";
+        if (correct == 3 || correct == 2){
+             sen = sen + "Well at least you tried....";
         }
         if (correct < 1){
              sen = sen + "Stay in school kids ...";
@@ -59,6 +59,6 @@ function check(){
     myFunction()
     document.getElementById("quiz").style.visibility = "hidden";
     document.getElementById("scoreboard").style.visibility = "visible";
-    document.getElementById("score").innerHTML = "You got " + correct + "out of 8 correct." 
+    document.getElementById("score").innerHTML = "You got " + correct + " out of 8 correct." 
     document.getElementById("quoat").innerHTML = sen
 }

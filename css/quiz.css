@@ -1,15 +1,13 @@
-body {
 
-	color: #333;
-	background-color: oldlace;
-}
 #quiz{
 	text-align: center;
 	
 }
 #background{
-	background-image: url("bckgrndpics/greek.jpg");
+	background-image: url("bckgrndpics/paper.jpg");
+
 }
+
 button{
 	background: rgb(167, 116, 41);
 	border: none;
@@ -27,16 +25,16 @@ button:hover  {
 	cursor: pointer;
 }
 .answer{
-	margin: 20px;
+	
 	border-style: double;
-	padding: 30px;
+	border-radius: 20px;
 	background-color: white;
 }
 label{
-	margin: 5px;
+	margin: 20px;
 }
 input{
-	padding: 20px;
+	padding: 250px;
 }
 input[type='radio'] {
 	-webkit-box-sizing: border-box;
@@ -94,13 +92,73 @@ input[type='radio'] {
 p{
 	font-weight: bold;
 	font-size: x-large;
+
 }
 .question{
 	padding-top: 50px;
 	border-style: solid;
 	border-color: #001a00;
 	background-color: white;
-	margin: 50px;
-	border-radius: 25px;
+	border-radius: 20px;
 	
 }
+.fa {
+    font-size: 30px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    color: #cbbe66;
+    }
+#toprowfoot{
+    margin-left: 5px;
+}
+footer p{
+    text-align: left;
+    margin-top: 0.1em;
+    color: #cbbe66;
+}
+footer h4{
+    size: 3em;
+    color: #cbbe66;
+}
+footer li{
+    color: #cbbe66;
+}
+footer{
+    padding: 1em;
+    bottom: 0;
+    margin: 0;
+    background-color: #583E23;
+}
+#copyright {
+    font-size: 0.5em;
+    text-align: center;
+}
+nav{
+	margin-top: 10px;
+	background-color: #a2c5ac;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 0 !important;
+  }
+nav a{
+	  color: #583E23;
+	  font-size: 2em;
+	  font-family: 'Macondo';
+  }
+nav a:hover{
+	color: #3a2917;
+	font-size: 2.1em;
+	font-family: 'Macondo';
+	
+  }
+#pgtitle a{
+	  color: #534921;
+	  font-size: 3em;
+	  font-family: 'Caesar Dressing'
+  }
+#pgtitle a:hover { 
+	color: #534921;
+	font-size: 3.03em;
+	font-family: 'Caesar Dressing'
+  }
